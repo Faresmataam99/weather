@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <nav class="bg-blue flex justify-center items-center p-4 gap-6">
+<p class="text-3xl">Accu <span class="text-yellow-400">weather</span> </p> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAxNJREFUaEPtmDmrFUEQhb+H+/IDTPQJgmDgkrr7BFHc10QTE8HAREEMRJSHoaigoWCmorivuKDimhgYuqGZ/0BxQZ3z6MFh6Jmp6Z55cnE6uMGdrlN1uk4vVX30+Ojr8fjpCPzrDLaZgd85cq34agXUBd4RsMjzv8vAPOC5ZWWAUAnV8WE+RscA14HFwDrgjoFECIFlwE3gEbAG+FblxyKhccCtBHSJA/teg0SV/+z3NPhR7k+RWAl8LQOxEFDgDz0gAr9dJ8KSuauAG57v8v04loDsNwIXPUDS64tIEvOBpx6MTcClKmxLBlKMtQ5whPvjnlWnFUGk+0sS0vgJrHd7oSp+8yZOgTYDF4CrzknewViXrRXAbGCqm/AJeO320rmCqISpRTKtfIpRJwOpzULgiScInRongP6KZfsA7ATue+YtKJBTIWQIAR/YIHCgMt9/J/xKTpd9wJEaNt6pTRA4DOwPDGQ3cDzQdsgsloBkcy0mAGBRgSRNsDEEJgLvgEkmT8WT3iRH9Mwkiz9CcGII7HKbNsRv3kb3zOUQoBgCeg8tD3HqsTkF7AjB8hHIP8KKjtzPDcgnxdYdMSdHwBRHDAEdhTEZzMarB9v44SagV2n6cgzJftbmCzBhuAm8B6bFRu7sdZpNb4qANabzwBbr5Ip5Z4GtIVgxGt6evHtOhzj12GxLMnAmBCuGgCo1XUKTQxxnbD4CMyzlo89PDAHh6R6w1MdlHCurrjLjWALCPpj8HArMwh7gWKDtkFkTBIQjAiJiHbpD9gJHrQZF80IIFBUdepmeBKZUBPXWFTS+RkHrBY21pFTHYlamOlMV9gq460pSH8fWS0q1Pq4AI533Not61cWmOsMqoaK2ylzgZaSO1Zp55sHY4BasFN5CYCnwwIOy2tr6MBAUllqX+THg2oyFEBYC+daiKifJSRJqcqgVo30w2oE21loUXtp80qVjDT6kuSsSyoROqMaau9lVluatrcQQAvKlVqNvT3izbZFQqExCCdTy1xEoWa4uAxYttSkhi//oOR2B6CWMBOj5DPwBSC6IMV0092IAAAAASUVORK5CYII="/>
+        </nav>
+    </header>
+    <section class=" w-screen h-screen bg-[url('/public/swiss.jpg')] bg-cover ">
+            <div class="flex items-center justify-center bg-transparent backdrop-blur-lg shadow-lg rounded-xl p-20 max-w-screen flex-col h-screen w-screen gap-6 ">
+               
+            <input class=" input  rounded-lg items-center justify-center text-xl w-full m-10 p-4" type="text" placeholder="choose the place">
+            <button class=" button flex items-center p-3 bg-white rounded-lg hover:bg-black transition-all duration-200 hover:text-white ">Search</button>
+            <div id="weatherResult" class="bg-blue-950  m-5 p-20 flex items-center justify-center rounded-xl max-w-fit gap-6 ">
+        </div>
+
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
